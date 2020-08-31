@@ -1,0 +1,35 @@
+.footericon{
+  display:none !important;
+  width:100% !important;
+  position: fixed;
+  bottom: 0 !important;
+  left:0 !important;
+  height:60px;
+  margin-top: 70px;
+  font-size:30px;
+}
+
+/* ---------------------------- responsive page code----------------------------- */
+
+@media only screen and (max-width: 500px) {
+.footericon{
+  display:initial !important;
+  width:100% !important;
+  position: fixed;
+  bottom: 0 ;
+  left:0 !important;
+  height:60px;
+  margin-top: 70px;
+  font-size:30px;
+  background-color: purple;
+  color:white !important;
+    }
+    .resp{
+        color:white !important;
+        display:flex !important;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 30px;
+    }
+    
+}

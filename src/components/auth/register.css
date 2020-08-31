@@ -1,0 +1,28 @@
+
+
+.Card{
+    width:70%;
+    padding:10px;
+    height:20% !important;
+    margin-left: 13%;
+    margin-top:20px;
+    border: 1px black solid;
+    background-color: white;
+}
+
+.card-header2{
+  background-color: white !important;
+  text-align:center;
+}
+Form{
+  font-size: x-large;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form{
+  margin-left: 50px;
+}
+.required{
+  color:red;
+}

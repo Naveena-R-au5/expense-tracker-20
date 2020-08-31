@@ -1,0 +1,28 @@
+.nav1{
+    height:60px !important;
+    background-color: rgb(124, 10, 124);
+}
+
+.navicon{
+    font-weight: normal;
+    color:white;
+}
+.logo{
+    float:left !important;
+}
+
+.resp{
+    margin-right:10px;
+}
+
+/* ---------------------------- responsive page code----------------------------- */
+
+@media only screen and (max-width: 600px) {
+    .navicon{
+        display:none !important;
+    }
+    .log{
+        display:none !important;
+    }
+    
+}
